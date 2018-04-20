@@ -1,6 +1,6 @@
 {
   "name": "easy-password-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a random password",
   "main": "dist/easy-password-gen.js",
   "browser": "dist/easy-password-gen.umd.js",
@@ -45,5 +45,4 @@
       "dist"
     ]
   }
-  
 }

@@ -1,0 +1,49 @@
+{
+  "name": "simple-password-gen",
+  "version": "1.0.0",
+  "description": "Generate a random password",
+  "main": "dist/simple-password-gen.js",
+  "browser": "dist/simple-password-gen.umd.js",
+  "module": "dist/simple-password-gen.m.js",
+  "source": "src/index.js",
+  "repository": "https://github.com/tiaanduplessis/simple-password-gen",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "lint": "standard --fix ./**/*.js",
+    "test": "jest"
+  },
+  "engine": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "password",
+    "generate",
+    "simple",
+    "generate-password"
+  ],
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "microbundle": "^0.4.4",
+    "standard": "^11.0.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env"
+      ]
+    ]
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    },
+    "ignore": [
+      "dist"
+    ]
+  }
+  
+}

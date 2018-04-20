@@ -1,5 +1,7 @@
 
 # easy-password-gen
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/easy-password-gen.svg)](https://greenkeeper.io/)
 [![package version](https://img.shields.io/npm/v/easy-password-gen.svg?style=flat-square)](https://npmjs.org/package/easy-password-gen)
 [![package downloads](https://img.shields.io/npm/dm/easy-password-gen.svg?style=flat-square)](https://npmjs.org/package/easy-password-gen)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)

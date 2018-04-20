@@ -1,12 +1,12 @@
 {
-  "name": "simple-password-gen",
+  "name": "easy-password-gen",
   "version": "1.0.0",
   "description": "Generate a random password",
-  "main": "dist/simple-password-gen.js",
-  "browser": "dist/simple-password-gen.umd.js",
-  "module": "dist/simple-password-gen.m.js",
+  "main": "dist/easy-password-gen.js",
+  "browser": "dist/easy-password-gen.umd.js",
+  "module": "dist/easy-password-gen.m.js",
   "source": "src/index.js",
-  "repository": "https://github.com/tiaanduplessis/simple-password-gen",
+  "repository": "https://github.com/tiaanduplessis/easy-password-gen",
   "author": "Tiaan du Plessis",
   "license": "MIT",
   "scripts": {

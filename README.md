@@ -1,9 +1,9 @@
 
-# simple-password-gen
-[![package version](https://img.shields.io/npm/v/simple-password-gen.svg?style=flat-square)](https://npmjs.org/package/simple-password-gen)
-[![package downloads](https://img.shields.io/npm/dm/simple-password-gen.svg?style=flat-square)](https://npmjs.org/package/simple-password-gen)
+# easy-password-gen
+[![package version](https://img.shields.io/npm/v/easy-password-gen.svg?style=flat-square)](https://npmjs.org/package/easy-password-gen)
+[![package downloads](https://img.shields.io/npm/dm/easy-password-gen.svg?style=flat-square)](https://npmjs.org/package/easy-password-gen)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/simple-password-gen.svg?style=flat-square)](https://npmjs.org/package/simple-password-gen)
+[![package license](https://img.shields.io/npm/l/easy-password-gen.svg?style=flat-square)](https://npmjs.org/package/easy-password-gen)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 > Generate a random password
@@ -20,23 +20,23 @@
 This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
 
 ```sh
-$ npm install simple-password-gen
+$ npm install easy-password-gen
 $ # OR
-$ yarn add simple-password-gen
+$ yarn add easy-password-gen
 ```
 
 ## Usage
 
 ```js
-import simplePasswordGen from 'simple-password-gen'
+import easyPasswordGen from 'easy-password-gen'
 
-console.log(simplePasswordGen())
-console.log(simplePasswordGen(16))
+console.log(easyPasswordGen())
+console.log(easyPasswordGen(16))
 
 const newCharset = "ASDFGHJPOIUY"
 const newLength = 6
 
-console.log(simplePasswordGen(newLength, newCharset))
+console.log(easyPasswordGen(newLength, newCharset))
 
 ```
 

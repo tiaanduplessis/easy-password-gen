@@ -1,9 +1,9 @@
-import simplePasswordGen from 'simple-password-gen'
+import easyPasswordGen from 'simple-password-gen'
 
-console.log(simplePasswordGen())
-console.log(simplePasswordGen(16))
+console.log(easyPasswordGen())
+console.log(easyPasswordGen(16))
 
 const newCharset = "ASDFGHJPOIUY"
 const newLength = 6
 
-console.log(simplePasswordGen(newLength, newCharset))
+console.log(easyPasswordGen(newLength, newCharset))

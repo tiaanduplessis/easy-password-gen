@@ -1,9 +1,14 @@
-import easyPasswordGen from 'simple-password-gen'
+import generatePassword from 'easy-password-gen'
 
-console.log(easyPasswordGen())
-console.log(easyPasswordGen(16))
+const pass1 = generatePassword({
+  lowercase: true,
+  length: 40
+})
+const pass2 = generatePassword({
+  uppercase: true,
+  numbers: false,
+  symbols: false
+})
 
-const newCharset = "ASDFGHJPOIUY"
-const newLength = 6
-
-console.log(easyPasswordGen(newLength, newCharset))
+console.log(pass1)
+console.log(pass2)

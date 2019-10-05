@@ -10,14 +10,34 @@
 
 ## Table of Contents
 
-- [Install](#install)
 - [Usage](#usage)
+- [Install](#install)
 - [Contribute](#contribute)
 - [License](#License)
 
+## Usage
+
+```js
+import generatePassword from 'easy-password-gen'
+
+const pass1 = generatePassword({
+  lowercase: true,
+  length: 40
+})
+const pass2 = generatePassword({
+  uppercase: true,
+  numbers: false,
+  symbols: false
+})
+
+console.log(pass1)
+console.log(pass2)
+```
+
+
 ## Install
 
-This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
+This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com).
 
 ```sh
 $ npm install easy-password-gen
@@ -25,29 +45,13 @@ $ # OR
 $ yarn add easy-password-gen
 ```
 
-## Usage
-
-```js
-import easyPasswordGen from 'easy-password-gen'
-
-console.log(easyPasswordGen())
-console.log(easyPasswordGen(16))
-
-const newCharset = "ASDFGHJPOIUY"
-const newLength = 6
-
-console.log(easyPasswordGen(newLength, newCharset))
-
-```
-
 ## Contribute
 
-1. Fork it and create your feature branch: git checkout -b my-new-feature
-2. Commit your changes: git commit -am 'Add some feature'
-3.Push to the branch: git push origin my-new-feature 
+1. Fork it and create your feature branch: `git checkout -b my-new-feature`
+2. Commit your changes: `git commit -am "Add some feature"`
+3. Push to the branch: `git push origin my-new-feature`
 4. Submit a pull request
 
 ## License
 
 MIT
-    

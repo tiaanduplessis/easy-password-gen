@@ -1,2 +1,0 @@
-!function(e,o){"object"==typeof exports&&"undefined"!=typeof module?module.exports=o():"function"==typeof define&&define.amd?define(o):e.simplePasswordGen=o()}(this,function(){var e="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789{}()[]#:;^,.?!|&_`~@$%/\\=+-'\"*";return function(o,n){void 0===o&&(o=10),void 0===n&&(n=e);for(var t=n.length,f="",r=0;r<o;r++)f+=n.charAt(Math.floor(Math.random()*t));return f}});
-//# sourceMappingURL=simple-password-gen.umd.js.map

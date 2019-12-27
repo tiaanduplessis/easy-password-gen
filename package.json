@@ -1,6 +1,6 @@
 {
   "name": "easy-password-gen",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Generate a random password",
   "main": "dist/easy-password-gen.js",
   "types": "type.d.ts",

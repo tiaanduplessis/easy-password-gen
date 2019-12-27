@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Generate a random password",
   "main": "dist/easy-password-gen.js",
+  "types": "type.d.ts",
   "browser": "dist/easy-password-gen.umd.js",
   "module": "dist/easy-password-gen.m.js",
   "source": "src/index.js",
